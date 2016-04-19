@@ -16,6 +16,7 @@
 		81B44E7B1CC636970068EA64 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B44E791CC636970068EA64 /* TableViewCell.m */; };
 		81B44E7C1CC636970068EA64 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B44E7A1CC636970068EA64 /* TableViewCell.xib */; };
 		81B44E821CC63E3F0068EA64 /* CustomizedPaddingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B44E811CC63E3F0068EA64 /* CustomizedPaddingLabel.m */; };
+		81B44E841CC6581F0068EA64 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B44E831CC6581F0068EA64 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		81B44E7A1CC636970068EA64 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		81B44E801CC63E3F0068EA64 /* CustomizedPaddingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedPaddingLabel.h; sourceTree = "<group>"; };
 		81B44E811CC63E3F0068EA64 /* CustomizedPaddingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedPaddingLabel.m; sourceTree = "<group>"; };
+		81B44E831CC6581F0068EA64 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		81B44E5D1CC636040068EA64 /* labelMargin */ = {
 			isa = PBXGroup;
 			children = (
+				81B44E831CC6581F0068EA64 /* demo.png */,
 				81B44E611CC636040068EA64 /* AppDelegate.h */,
 				81B44E621CC636040068EA64 /* AppDelegate.m */,
 				81B44E671CC636040068EA64 /* Main.storyboard */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B44E6E1CC636040068EA64 /* LaunchScreen.storyboard in Resources */,
+				81B44E841CC6581F0068EA64 /* demo.png in Resources */,
 				81B44E7C1CC636970068EA64 /* TableViewCell.xib in Resources */,
 				81B44E6B1CC636040068EA64 /* Assets.xcassets in Resources */,
 				81B44E691CC636040068EA64 /* Main.storyboard in Resources */,
@@ -316,6 +320,7 @@
 				81B44E741CC636040068EA64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
