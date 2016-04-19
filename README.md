@@ -16,7 +16,7 @@
 {  
     self = [super initWithCoder:aDecoder];  
     if (self) {  
-        self.edgeInsets = UIEdgeInsetsMake(20, 10, 20, 10);  
+        **self.edgeInsets = UIEdgeInsetsMake(20, 10, 20, 10);**
     }  
     return self;  
 }
