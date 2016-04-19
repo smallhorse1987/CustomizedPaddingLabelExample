@@ -11,25 +11,13 @@
 ##使用CustomizedPaddingLabel
 1, CustomizedPaddingLabel.m CustomizedPaddingLabel.h 拷贝到工程里。  
 2, 设置所需要的边距  
-```- (id)initWithCoder:(NSCoder *)aDecoder  
+``` 
+- (id)initWithCoder:(NSCoder *)aDecoder  
 {  
     self = [super initWithCoder:aDecoder];  
     if (self) {  
         self.edgeInsets = UIEdgeInsetsMake(20, 10, 20, 10);  
     }  
     return self;  
-}```
-
-
-``` python
-@requires_authorization
-def somefunc(param1='', param2=0):
-    '''A docstring'''
-    if param1 > param2: # interesting
-        print 'Greater'
-    return (param2 - param1 + 1) or None
-class SomeClass:
-    pass
->>> message = '''interpreter
-... prompt'''
+}
 ```
